@@ -44,5 +44,6 @@
   <hr>
 
   <footer>
-    <p>Feel free to include screenshots or live demo links to make the project more appealing on GitHub!</p>
+   ![image](https://github.com/user-attachments/assets/6a05f72d-83f2-4e57-950e-f2b130a81645)
+
   </footer>
