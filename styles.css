@@ -6,70 +6,66 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-image: url('Roasted_coffee_beans.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
     padding: 20px;
-    background-image: url('Roasted_coffee_beans.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    min-height: 100vh;
-    margin: 0;
-    background-color: rgba(0,0,0,0.5); /* Optional: adds a dark overlay */
-    background-blend-mode: darken;
 }
 
-.menu-container {
-    max-width: 500px;
+.container {
     width: 100%;
-    background-color: #f5deb3;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border border-radius: 10px;
+    max-width: 600px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.menu-title {
+.header, .footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.title {
     font-size: 32px;
-    text-align: center;
-    margin-bottom: 10px;
-    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
 }
 
-.menu-subtitle {
+.subtitle {
     font-size: 18px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 20px;
 }
 
-.menu-section {
-    margin-bottom: 30px;
+.section {
+    padding: 20px;
 }
 
 .section-title {
     font-size: 24px;
+    margin-bottom: 15px;
     text-align: center;
-    margin-bottom: 10px;
 }
 
-.menu-items {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .menu-item {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    font-size: 16px;
-    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
 }
 
 .item-name {
@@ -77,12 +73,14 @@ body {
 }
 
 .item-price {
-    color: #000000;
+    color: #333333;
 }
 
-footer {
-    text-align: center;
-    font-size: 14px;
-    color: #000000;
-    margin-top: 20px;
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer p {
+    margin: 5px 0;
 }
